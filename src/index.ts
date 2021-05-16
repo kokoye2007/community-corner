@@ -4,9 +4,9 @@
 // The "WA" global object is available from anywhere.
 
 console.log('Script started successfully');
-WA.openCoWebSite('https://workadventu.re');
+// WA.openCoWebSite('https://workadventu.re');
 
-let helloWorldPopup;
+let helloWorldPopup: any;
 
 // Open the popup when we enter a given zone
 helloWorldPopup = WA.onEnterZone('popup', () => {
@@ -17,8 +17,8 @@ helloWorldPopup = WA.onEnterZone('popup', () => {
             // Close the popup when the "Close" button is pressed.
             popup.close();
         }
-    });
-}]);
+    }]);
+});
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('popup', () => {

@@ -7,15 +7,17 @@ console.log('Script started successfully');
 let helloWorldPopup: any;
 
 // Open the popup when we enter a given zone
-helloWorldPopup = WA.onEnterZone('popup', () => {
-    WA.openPopup("popup_test", 'Hello world!', [{
-        label: "Close",
-        className: "primary",
-        callback: (popup) => {
-            // Close the popup when the "Close" button is pressed.
-            popup.close();
-        }
-    }]);
+WA.onEnterZone('popup', () => {
+    helloWorldPopup = WA.openPopup("popup_test", 'Hello world!', [
+    //     {
+    //     label: "Close",
+    //     className: "primary",
+    //     callback: (popup) => {
+    //         // Close the popup when the "Close" button is pressed.
+    //         popup.close();
+    //     }
+    // }
+]);
 });
 
 // Close the popup when we leave the zone.

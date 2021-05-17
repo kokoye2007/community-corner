@@ -8,7 +8,7 @@ let helloWorldPopup: any;
 
 // Open the popup when we enter a given zone
 helloWorldPopup = WA.onEnterZone('popup', () => {
-    WA.openPopup("popUp", 'Hello world!', [{
+    WA.openPopup("popoup_test", 'Hello world!', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {

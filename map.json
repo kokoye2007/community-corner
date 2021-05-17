@@ -49,18 +49,7 @@
          "draworder":"topdown",
          "id":24,
          "name":"popup",
-         "objects":[
-                {
-                 "height":93,
-                 "id":1,
-                 "name":"popup_test",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":131,
-                 "x":545,
-                 "y":1790.5
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -143,7 +132,18 @@
          "draworder":"topdown",
          "id":3,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":93,
+                 "id":1,
+                 "name":"popup_test",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":131,
+                 "x":545,
+                 "y":1790.5
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,

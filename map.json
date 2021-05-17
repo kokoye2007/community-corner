@@ -53,13 +53,13 @@
                 {
                  "height":93,
                  "id":1,
-                 "name":"popUp",
+                 "name":"popup_test",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":131,
-                 "x":553.5,
-                 "y":1807.5
+                 "x":545,
+                 "y":1790.5
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -163,7 +163,7 @@
          "y":0
         }],
  "nextlayerid":25,
- "nextobjectid":2,
+ "nextobjectid":5,
  "orientation":"orthogonal",
  "properties":[
         {

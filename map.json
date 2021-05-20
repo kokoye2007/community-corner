@@ -91,7 +91,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/sig_map.json"
+                 "value":".\/sig_map.json#entry_expo"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -109,7 +109,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/garden.json#entry_expo"
+                 "value":".\/garden.json#entry_expo"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -127,7 +127,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/first_floor.json"
+                 "value":".\/first_floor.json#entry_expo"
                 }],
          "type":"tilelayer",
          "visible":true,

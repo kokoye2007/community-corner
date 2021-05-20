@@ -11,45 +11,81 @@ const openSysPopupText = 'Open Systems is a groundbreaking cybersecurity company
 let helloWorldPopup: any;
 
 // const existingPopups = ['popup', 'testpopup']
-const existingPopups = [{
-    name: 'popup',
-    body: 'Hello World',
-    options: {lable: 'Close', className: 'primary', callback: (popup: any) =>{popup.close()}}
-}, {
-    name: 'popup_test',
-    body: 'Hello World NUMERO 2',
-    options: {}
-}]
+// const existingPopups = [{
+//     name: 'popup',
+//     body: 'Hello World',
+//     options: {lable: 'Close', className: 'primary', callback: (popup: any) =>{popup.close()}}
+// }, {
+//     name: 'popup_test',
+//     body: 'Hello World NUMERO 2',
+//     options: {}
+// }]
 
-existingPopups.forEach((popup: any) => {
-    WA.onEnterZone(popup.name, () => {
-        currentPopup = WA.openPopup(popup.name, popup.body, [
-        popup.options
-    ]);
-    });
-    WA.onLeaveZone(popup.name, () => {
-        currentPopup.close();
-    });
-})
+// existingPopups.forEach((popup: any) => {
+//     WA.onEnterZone(popup.name, () => {
+//         currentPopup = WA.openPopup(popup.name, popup.body, [
+//         popup.options
+//     ]);
+//     });
+//     WA.onLeaveZone(popup.name, () => {
+//         currentPopup.close();
+//     });
+// })
 
 // Open the popup when we enter a given zone
-// WA.onEnterZone('popup', () => {
-//     currentPopup = WA.openPopup("popup_test", 'Hello world!', [
-//     //     {
-//     //     label: "Close",
-//     //     className: "primary",
-//     //     callback: (popup) => {
-//     //         // Close the popup when the "Close" button is pressed.
-//     //         popup.close();
-//     //     }
-//     // }
-// ]);
-// });
+WA.onEnterZone('circlPopup', () => {
+    currentPopup = WA.openPopup("circlPopup", circlPopupText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+});
 
-// // Close the popup when we leave the zone.
-// WA.onLeaveZone('popup', () => {
-//     helloWorldPopup.close();
-// });
+// Close the popup when we leave the zone.
+WA.onLeaveZone('circlPopup', () => {
+    currentPopup.close();
+});
+
+WA.onEnterZone('hitachiPopup', () => {
+    currentPopup = WA.openPopup("hitachiPopup", hitachiPopupText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('hitachiPopup', () => {
+    currentPopup.close();
+});
+
+WA.onEnterZone('openSysPopup', () => {
+    currentPopup = WA.openPopup("openSysPopup", openSysPopupText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('openSysPopup', () => {
+    currentPopup.close();
+});
 
 function closePopUp(){
     if (currentPopup !== undefined) {

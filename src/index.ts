@@ -228,7 +228,7 @@ WA.onLeaveZone('rapid', () => {
 });
 
 WA.onEnterZone('secureworks', () => {
-    currentPopup = WA.openPopup("womenFirst", secureworksText, [
+    currentPopup = WA.openPopup("secureWorks", secureworksText, [
         {
         label: "Close",
         className: "primary",

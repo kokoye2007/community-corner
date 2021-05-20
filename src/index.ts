@@ -116,7 +116,8 @@ WA.onEnterZone('womenFirst', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('womenFirst', () => {
-    currentPopup.close();
+    // currentPopup.close();
+    closePopUp()
 });
 
 WA.onEnterZone('cymru', () => {
@@ -134,7 +135,8 @@ WA.onEnterZone('cymru', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('cymru', () => {
-    currentPopup.close();
+    // currentPopup.close();
+    closePopUp()
 });
 
 WA.onEnterZone('ericsson', () => {
@@ -152,7 +154,8 @@ WA.onEnterZone('ericsson', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('ericsson', () => {
-    currentPopup.close();
+    // currentPopup.close();
+    closePopUp()
 });
 
 WA.onEnterZone('otrs', () => {
@@ -170,7 +173,8 @@ WA.onEnterZone('otrs', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('otrs', () => {
-    currentPopup.close();
+    // currentPopup.close();
+    closePopUp()
 });
 
 WA.onEnterZone('virustotal', () => {
@@ -188,7 +192,8 @@ WA.onEnterZone('virustotal', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('virustotal', () => {
-    currentPopup.close();
+    // currentPopup.close();
+    closePopUp()
 });
 
 WA.onEnterZone('microsoft', () => {
@@ -206,7 +211,8 @@ WA.onEnterZone('microsoft', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('microsoft', () => {
-    currentPopup.close();
+    // currentPopup.close();
+    closePopUp()
 });
 
 WA.onEnterZone('rapid', () => {
@@ -224,11 +230,12 @@ WA.onEnterZone('rapid', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('rapid', () => {
-    currentPopup.close();
+    // currentPopup.close();
+    closePopUp()
 });
 
 WA.onEnterZone('secureworks', () => {
-    currentPopup = WA.openPopup("secureWorks", secureworksText, [
+    currentPopup = WA.openPopup("secureworks", secureworksText, [
         {
         label: "Close",
         className: "primary",
@@ -242,7 +249,8 @@ WA.onEnterZone('secureworks', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('secureworks', () => {
-    currentPopup.close();
+    // currentPopup.close();
+    closePopUp()
 });
 
 WA.onEnterZone('oasis', () => {
@@ -260,7 +268,8 @@ WA.onEnterZone('oasis', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('oasis', () => {
-    currentPopup.close();
+    // currentPopup.close();
+    closePopUp()
 });
 
 WA.onEnterZone('quarkslab', () => {
@@ -271,6 +280,7 @@ WA.onEnterZone('quarkslab', () => {
         callback: (popup) => {
             // Close the popup when the "Close" button is pressed.
             popup.close();
+            currentPopup = undefined;
         }
     }
 ]);
@@ -278,7 +288,8 @@ WA.onEnterZone('quarkslab', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('quarkslab', () => {
-    currentPopup.close();
+    // currentPopup.close();
+    closePopUp()
 });
 
 WA.onEnterZone('facebook', () => {
@@ -289,6 +300,7 @@ WA.onEnterZone('facebook', () => {
         callback: (popup) => {
             // Close the popup when the "Close" button is pressed.
             popup.close();
+            currentPopup = undefined;
         }
     }
 ]);
@@ -296,7 +308,8 @@ WA.onEnterZone('facebook', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('facebook', () => {
-    currentPopup.close();
+    // currentPopup.close();
+    closePopUp()
 });
 
 function closePopUp(){

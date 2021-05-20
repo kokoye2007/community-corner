@@ -6,9 +6,23 @@ console.log('Script started successfully');
 let currentPopup: any = undefined
 const circlPopupText = 'The Computer Incident Response Center Luxembourg (CIRCL) is a government-driven initiative designed to gather, review, report and respond to computer security threats and incidents. CIRCL is operated by SMILE - “security made in Lëtzebuerg” GIE, which is also the host organization for CASES and the Cyber Competence Center (C3) of Luxembourg.'
 const hitachiPopupText = 'Hitachi proceeds with the development of new technologies and products that respond to the increasing demand for safety and security in the Social Innovation Business.'
-const openSysPopupText = 'Open Systems is a groundbreaking cybersecurity company delivering an experience way beyond expectations.'
+const openSysPopupText = 'Open Systems is a groundbreaking cybersecurity company delivering an experience way beyond expectations.';
+const womenFirstText = "To further develop the success of FIRST through increased female participation, leading to innovation in the field through diversity and inclusion.";
+const cymruText = "Thank you for visiting the Team Cymru team! Your scavenger hunt code word for the Team Cymru sponsor booth is:  kualalumpur";
+const ericssonText = "Thank you for visiting the Ericsson team! Your scavenger hunt code word for the Ericsson sponsor booth is:  fukuoka";
+const otrsText = "Thank you for visiting the OTRS AG team! Your scavenger hunt code word for the OTRS AG sponsor booth is: boston";
+const virustotalText = "Thank you for visiting the VirusTotal team! Your scavenger hunt code word for the VirusTotal sponsor booth is: berlin";
+const microsoftText = "Thank you for visiting the Microsoft team! Your scavenger hunt code word for the Microsoft sponsor booth is: malta";
+const rapidText = "Thank you for visiting the Rapid7 team! Your scavenger hunt code word for the Rapid7 sponsor booth is: sanjaun";
+const secureworksText = "Thank you for visiting the Secureworks team! Your scavenger hunt code word for the Secureworks sponsor booth is: hawaii";
+const oasisText = "Thank you for visiting the OASIS team! Your scavenger hunt code word for the OASIS sponsor booth is: ontario";
+const quarkslabText = "Thank you for visiting the Quarkslab team! Your scavenger hunt code word for the Quarkslab sponsor booth is: baltimore";
+const facebookText = "Thank you for visiting the Facebook team! Your scavenger hunt code word for the Facebook sponsor booth is: singapore";
 
 let helloWorldPopup: any;
+let circlPop: any;
+let hitachiPop: any;
+let openSysPop: any;
 
 // const existingPopups = ['popup', 'testpopup']
 // const existingPopups = [{
@@ -34,7 +48,7 @@ let helloWorldPopup: any;
 
 // Open the popup when we enter a given zone
 WA.onEnterZone('circlPopup', () => {
-    currentPopup = WA.openPopup("circlPopup", circlPopupText, [
+    circlPop = WA.openPopup("circlPopup", circlPopupText, [
         {
         label: "Close",
         className: "primary",
@@ -48,11 +62,11 @@ WA.onEnterZone('circlPopup', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('circlPopup', () => {
-    currentPopup.close();
+    circlPop.close();
 });
 
 WA.onEnterZone('hitachiPopup', () => {
-    currentPopup = WA.openPopup("hitachiPopup", hitachiPopupText, [
+    hitachiPop = WA.openPopup("hitachiPopup", hitachiPopupText, [
         {
         label: "Close",
         className: "primary",
@@ -66,11 +80,29 @@ WA.onEnterZone('hitachiPopup', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('hitachiPopup', () => {
-    currentPopup.close();
+    hitachiPop.close();
 });
 
 WA.onEnterZone('openSysPopup', () => {
-    currentPopup = WA.openPopup("openSysPopup", openSysPopupText, [
+    openSysPop = WA.openPopup("openSysPopup", openSysPopupText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+}); 
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('openSysPopup', () => {
+    openSysPop.close();
+});
+
+WA.onEnterZone('womenFirst', () => {
+    currentPopup = WA.openPopup("womenFirst", womenFirstText, [
         {
         label: "Close",
         className: "primary",
@@ -83,7 +115,187 @@ WA.onEnterZone('openSysPopup', () => {
 });
 
 // Close the popup when we leave the zone.
-WA.onLeaveZone('openSysPopup', () => {
+WA.onLeaveZone('womenFirst', () => {
+    currentPopup.close();
+});
+
+WA.onEnterZone('cymru', () => {
+    currentPopup = WA.openPopup("cymru", cymruText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('cymru', () => {
+    currentPopup.close();
+});
+
+WA.onEnterZone('ericsson', () => {
+    currentPopup = WA.openPopup("ericsson", ericssonText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('ericsson', () => {
+    currentPopup.close();
+});
+
+WA.onEnterZone('otrs', () => {
+    currentPopup = WA.openPopup("otrs", otrsText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('otrs', () => {
+    currentPopup.close();
+});
+
+WA.onEnterZone('virustotal', () => {
+    currentPopup = WA.openPopup("virustotal", virustotalText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('virustotal', () => {
+    currentPopup.close();
+});
+
+WA.onEnterZone('microsoft', () => {
+    currentPopup = WA.openPopup("microsoft", microsoftText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('microsoft', () => {
+    currentPopup.close();
+});
+
+WA.onEnterZone('rapid', () => {
+    currentPopup = WA.openPopup("rapid", rapidText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('rapid', () => {
+    currentPopup.close();
+});
+
+WA.onEnterZone('secureworks', () => {
+    currentPopup = WA.openPopup("womenFirst", secureworksText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('secureworks', () => {
+    currentPopup.close();
+});
+
+WA.onEnterZone('oasis', () => {
+    currentPopup = WA.openPopup("oasis", oasisText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('oasis', () => {
+    currentPopup.close();
+});
+
+WA.onEnterZone('quarkslab', () => {
+    currentPopup = WA.openPopup("quarkslab", quarkslabText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('quarkslab', () => {
+    currentPopup.close();
+});
+
+WA.onEnterZone('facebook', () => {
+    currentPopup = WA.openPopup("facebook", facebookText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('facebook', () => {
     currentPopup.close();
 });
 

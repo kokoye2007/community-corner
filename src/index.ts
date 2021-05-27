@@ -18,6 +18,10 @@ const secureworksText = "Thank you for visiting the Secureworks team! Your scave
 const oasisText = "Thank you for visiting the OASIS team! Your scavenger hunt code word for the OASIS sponsor booth is: ontario";
 const quarkslabText = "Thank you for visiting the Quarkslab team! Your scavenger hunt code word for the Quarkslab sponsor booth is: baltimore";
 const facebookText = "Thank you for visiting the Facebook team! Your scavenger hunt code word for the Facebook sponsor booth is: singapore";
+const ciscoText ="Thank you for visiting the Cisco team! Your scavenger hunt code word for the Cisco sponsor booth is: montreal";
+const cywareText = "Thank you for visiting the Cyware team! Your scavenger hunt code word for the Cyware booth is: tallinn"
+const isocText = "Thank you for visiting the Internet Society team! Your scavenger hunt code is: muscat";
+
 const scavangerText = "You found a scavenger item! The last in-person conference was held in Edinburgh, Scotland. Your scavenger hunt code word is: Scot1an6"
 
 
@@ -313,6 +317,69 @@ WA.onLeaveZone('facebook', () => {
     // currentPopup.close();
     closePopUp()
 });
+
+WA.onEnterZone('cisco', () => {
+    currentPopup = WA.openPopup("cisco", ciscoText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+            currentPopup = undefined;
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('cisco', () => {
+    // currentPopup.close();
+    closePopUp()
+});
+
+WA.onEnterZone('isoc', () => {
+    currentPopup = WA.openPopup("isoc", isocText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+            currentPopup = undefined;
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('isoc', () => {
+    // currentPopup.close();
+    closePopUp()
+});
+
+WA.onEnterZone('cyware', () => {
+    currentPopup = WA.openPopup("cyware", cywareText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+            currentPopup = undefined;
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('cyware', () => {
+    // currentPopup.close();
+    closePopUp()
+});
+
+
+
 
 WA.onEnterZone('scavanger', () => {
     currentPopup = WA.openPopup("scavanger", scavangerText, [

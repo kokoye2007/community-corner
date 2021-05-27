@@ -22,8 +22,17 @@ const ciscoText ="Thank you for visiting the Cisco team! Your scavenger hunt cod
 const cywareText = "Thank you for visiting the Cyware team! Your scavenger hunt code word for the Cyware booth is: tallinn"
 const isocText = "Thank you for visiting the Internet Society team! Your scavenger hunt code is: muscat";
 
-const scavangerText = "You found a scavenger item! The last in-person conference was held in Edinburgh, Scotland. Your scavenger hunt code word is: Scot1an6"
-
+const scavangerText = "You found a scavenger item! The last in-person conference was held in Edinburgh, Scotland. Your scavenger hunt code word is: Scot1an6";
+const gameText = "You found a scavenger item! All work and no play makes for a boring conference. Play a game with a friend. Your code word is: seville";
+const flagText = "You found a scavenger item! Within the CTF challenge, every submitted flag contributes to the team's score. A number of new challenges are released every day during the conference and are categorized as network, web, ICS, cryptography, reverse engineering, programming, miscellaneous, puzzle, and so on. Your code word is: vancouver"
+const soccerText = "You found a scavenger item! At the in-person conferences attendees regularly gather for an unofficial FIRST soccer/football match. Your scavenger hunt code word is: seoul"
+const castleText = "You found a scavenger item! The last in-person conference was held in Edinburgh, Scotland. Your scavenger hunt code word is: Scot1an6";
+const cloverText = "You found a scavenger item! The 2022 conference is set to be held in Dublin, Ireland. Your scavenger hunt code word is: Du61!n";
+const kittyText = "You found a scavenger item! Hello Kitty stickers regularly attack in-person FIRST conferences as distributed by Masato Terada. Your scavenger hunt code word is: he110k!tty";
+const handshakeText = "You found a scavenger item! The SIGs (Special Interest Groups) exist to provide a forum where FIRST Members can discuss topics of common interest to the Incident Response community. A SIG is a group of individuals composed of FIRST Members and invited parties, typically coming together to explore an area of interest or specific technology area, with a goal of collaborating and sharing expertise and experiences to address common challenges. Your code word is: kyoto";
+const waveText = "You found a scavenger item! FIRST welcomes all, learn more about FIRST membership here. Your scavenger hunt code word is: miami";
+const firstText = "You found a scavenger item! FIRST is the Forum of Incident Response and Security Teams. Your scavenger hunt code word is: vienna";
+const piggyText = "“You found a scavenger item! Based on a military tradition, if you show your collectible conference Challenge Coin to someone who also attended the coin’s conference, and they cannot produce it – they buy the next round of drinks! Your scavenger hunt code word is: hamburg"
 
 let helloWorldPopup: any;
 let circlPop: any;
@@ -400,6 +409,208 @@ WA.onLeaveZone('scavanger', () => {
     // currentPopup.close();
     closePopUp()
 });
+
+WA.onEnterZone('game', () => {
+    currentPopup = WA.openPopup("game", gameText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+            currentPopup = undefined;
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('game', () => {
+    // currentPopup.close();
+    closePopUp()
+});
+
+
+WA.onEnterZone('flag', () => {
+    currentPopup = WA.openPopup("flag", flagText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+            currentPopup = undefined;
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('soccer', () => {
+    // currentPopup.close();
+    closePopUp()
+});
+
+WA.onEnterZone('soccer', () => {
+    currentPopup = WA.openPopup("soccer", soccerText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+            currentPopup = undefined;
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('soccer', () => {
+    // currentPopup.close();
+    closePopUp()
+});
+
+WA.onEnterZone('castle', () => {
+    currentPopup = WA.openPopup("castle", castleText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+            currentPopup = undefined;
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('castle', () => {
+    // currentPopup.close();
+    closePopUp()
+});
+
+WA.onEnterZone('clover', () => {
+    currentPopup = WA.openPopup("clover", cloverText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+            currentPopup = undefined;
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('clover', () => {
+    // currentPopup.close();
+    closePopUp()
+});
+
+WA.onEnterZone('kitty', () => {
+    currentPopup = WA.openPopup("kitty", kittyText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+            currentPopup = undefined;
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('kitty', () => {
+    // currentPopup.close();
+    closePopUp()
+});
+
+WA.onEnterZone('handshake', () => {
+    currentPopup = WA.openPopup("handshake", handshakeText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+            currentPopup = undefined;
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('handshake', () => {
+    // currentPopup.close();
+    closePopUp()
+});
+
+WA.onEnterZone('wave', () => {
+    currentPopup = WA.openPopup("wave", waveText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+            currentPopup = undefined;
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('wave', () => {
+    // currentPopup.close();
+    closePopUp()
+});
+
+WA.onEnterZone('first', () => {
+    currentPopup = WA.openPopup("first", firstText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+            currentPopup = undefined;
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('first', () => {
+    // currentPopup.close();
+    closePopUp()
+});
+
+WA.onEnterZone('piggy', () => {
+    currentPopup = WA.openPopup("piggy", piggyText, [
+        {
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+            currentPopup = undefined;
+        }
+    }
+]);
+});
+
+// Close the popup when we leave the zone.
+WA.onLeaveZone('piggy', () => {
+    // currentPopup.close();
+    closePopUp()
+});
+
 
 
 

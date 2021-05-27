@@ -390,25 +390,25 @@ WA.onLeaveZone('cyware', () => {
 
 
 
-WA.onEnterZone('scavanger', () => {
-    currentPopup = WA.openPopup("scavanger", scavangerText, [
-        {
-        label: "Close",
-        className: "primary",
-        callback: (popup) => {
-            // Close the popup when the "Close" button is pressed.
-            popup.close();
-            currentPopup = undefined;
-        }
-    }
-]);
-});
+// WA.onEnterZone('scavanger', () => {
+//     currentPopup = WA.openPopup("scavanger", scavangerText, [
+//         {
+//         label: "Close",
+//         className: "primary",
+//         callback: (popup) => {
+//             // Close the popup when the "Close" button is pressed.
+//             popup.close();
+//             currentPopup = undefined;
+//         }
+//     }
+// ]);
+// });
 
-// Close the popup when we leave the zone.
-WA.onLeaveZone('scavanger', () => {
-    // currentPopup.close();
-    closePopUp()
-});
+// // Close the popup when we leave the zone.
+// WA.onLeaveZone('scavanger', () => {
+//     // currentPopup.close();
+//     closePopUp()
+// });
 
 WA.onEnterZone('game', () => {
     currentPopup = WA.openPopup("game", gameText, [
@@ -446,7 +446,7 @@ WA.onEnterZone('flag', () => {
 });
 
 // Close the popup when we leave the zone.
-WA.onLeaveZone('soccer', () => {
+WA.onLeaveZone('flag', () => {
     // currentPopup.close();
     closePopUp()
 });

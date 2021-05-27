@@ -96,7 +96,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/map.json#entry_garden"
+                 "value":".\/expo.json#entry_garden"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -150,7 +150,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/sig_map.json#entry_garden"
+                 "value":".\/sig_right.json#entry_garden"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -261,6 +261,12 @@
  "nextlayerid":17,
  "nextobjectid":2,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"script",
+         "type":"string",
+         "value":"script.js"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.5.0",
  "tileheight":32,

@@ -12,7 +12,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/map.json#entry_sig"
+                 "value":".\/expo.json#entry_sig"
                 }],
          "type":"tilelayer",
          "visible":true,

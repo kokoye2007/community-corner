@@ -559,7 +559,7 @@
         {
          "columns":13,
          "firstgid":1,
-         "image":"tiles\/tileset_first_walls.png",
+         "image":"src\/assets\/tileset_first_walls.png",
          "imageheight":480,
          "imagewidth":416,
          "margin":0,
@@ -572,7 +572,7 @@
         {
          "columns":11,
          "firstgid":196,
-         "image":"tiles\/tileset1.png",
+         "image":"src\/assets\/tileset1.png",
          "imageheight":352,
          "imagewidth":352,
          "margin":0,
@@ -585,7 +585,7 @@
         {
          "columns":16,
          "firstgid":317,
-         "image":"tiles\/1_Generic_32x32.png",
+         "image":"src\/assets\/1_Generic_32x32.png",
          "imageheight":1920,
          "imagewidth":512,
          "margin":0,
@@ -598,7 +598,7 @@
         {
          "columns":16,
          "firstgid":1277,
-         "image":"tiles\/2_LivingRoom_32x32.png",
+         "image":"src\/assets\/2_LivingRoom_32x32.png",
          "imageheight":1440,
          "imagewidth":512,
          "margin":0,
@@ -611,7 +611,7 @@
         {
          "columns":16,
          "firstgid":1997,
-         "image":"tiles\/19_Hospital_32x32.png",
+         "image":"src\/assets\/19_Hospital_32x32.png",
          "imageheight":2496,
          "imagewidth":512,
          "margin":0,
@@ -624,7 +624,7 @@
         {
          "columns":16,
          "firstgid":3245,
-         "image":"tiles\/12_Kitchen_32x32.png",
+         "image":"src\/assets\/12_Kitchen_32x32.png",
          "imageheight":1568,
          "imagewidth":512,
          "margin":0,
@@ -637,7 +637,7 @@
         {
          "columns":16,
          "firstgid":4029,
-         "image":"tiles\/13_Conference_Hall_32x32.png",
+         "image":"src\/assets\/13_Conference_Hall_32x32.png",
          "imageheight":384,
          "imagewidth":512,
          "margin":0,
@@ -650,7 +650,7 @@
         {
          "columns":16,
          "firstgid":4221,
-         "image":"tiles\/3_Bathroom_32x32.png",
+         "image":"src\/assets\/3_Bathroom_32x32.png",
          "imageheight":1792,
          "imagewidth":512,
          "margin":0,
@@ -663,7 +663,7 @@
         {
          "columns":16,
          "firstgid":5117,
-         "image":"tiles\/16_Grocery_store_32x32.png",
+         "image":"src\/assets\/16_Grocery_store_32x32.png",
          "imageheight":2496,
          "imagewidth":512,
          "margin":0,
@@ -676,7 +676,7 @@
         {
          "columns":16,
          "firstgid":6365,
-         "image":"tiles\/18_Jail_32x32.png",
+         "image":"src\/assets\/18_Jail_32x32.png",
          "imageheight":1440,
          "imagewidth":512,
          "margin":0,
@@ -689,7 +689,7 @@
         {
          "columns":16,
          "firstgid":7085,
-         "image":"tiles\/[Base]BaseChip_pipo.png",
+         "image":"src\/assets\/[Base]BaseChip_pipo.png",
          "imageheight":2368,
          "imagewidth":512,
          "margin":0,
@@ -702,7 +702,7 @@
         {
          "columns":6,
          "firstgid":8269,
-         "image":"tiles\/watileset.png",
+         "image":"src\/assets\/watileset.png",
          "imageheight":512,
          "imagewidth":192,
          "margin":0,
@@ -725,7 +725,7 @@
         {
          "columns":6,
          "firstgid":8365,
-         "image":"tiles\/scavanger.png",
+         "image":"src\/assets\/scavanger.png",
          "imageheight":192,
          "imagewidth":192,
          "margin":0,
@@ -738,7 +738,7 @@
         {
          "columns":16,
          "firstgid":8401,
-         "image":"tiles\/14_Basement_32x32.png",
+         "image":"src\/assets\/14_Basement_32x32.png",
          "imageheight":1600,
          "imagewidth":512,
          "margin":0,
@@ -751,7 +751,7 @@
         {
          "columns":22,
          "firstgid":9201,
-         "image":"tiles\/office_interiors.png",
+         "image":"src\/assets\/office_interiors.png",
          "imageheight":768,
          "imagewidth":704,
          "margin":0,
@@ -764,7 +764,7 @@
         {
          "columns":10,
          "firstgid":9729,
-         "image":"tiles\/signage.png",
+         "image":"src\/assets\/signage.png",
          "imageheight":640,
          "imagewidth":320,
          "margin":0,

@@ -9,18 +9,18 @@ let currentPopup: any;
 const config = [
     {
         zone: 'needHelp',
-        message: 'You need help, advices or just want to meet us?',
+        message: 'Do you need some guidance? We are happy to help you out.',
         cta: [
             {
-                label: 'It\'s here',
-                className: 'normal',
+                label: 'Meet us',
+                className: 'primary',
                 callback: () => WA.openTab('https://play.staging.workadventu.re/@/tcm/workadventure/wa-village'),
             }
         ]
     },
     {
         zone: 'followUs',
-        message: 'We know you love WorkAdventure as much as we do :) But do you follow us?',
+        message: 'Hey! Have you already started following us?',
         cta: [
             {
                 label: 'LinkedIn',

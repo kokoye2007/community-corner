@@ -402,12 +402,12 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"CC-BY-SA 3.0:\n - http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/\n - See the file: cc-by-sa-3.0.txt\nGNU GPL 3.0:\n - http:\/\/www.gnu.org\/licenses\/gpl-3.0.html\n - See the file: gpl-3.0.txt\n\nAssets from: hello@workadventu.re"
+         "value":"CC-BY-SA 3.0:\n - http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/\n - See the file: cc-by-sa-3.0.txt\nGNU GPL 3.0:\n - http:\/\/www.gnu.org\/licenses\/gpl-3.0.html\n - See the file: gpl-3.0.txt\n\nTilesets: workadventu.re, https:\/\/limezu.itch.io\/"
         }, 
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Big event"
+         "value":"A map suited for big sponsonship events, with up to 10 closed rooms and 6 sponsor rooms."
         }, 
         {
          "name":"mapImage",
@@ -415,9 +415,14 @@
          "value":"map.png"
         }, 
         {
+         "name":"mapLink",
+         "type":"string",
+         "value":"https:\/\/valdotr.github.io\/big-sponsorship\/map.json"
+        }, 
+        {
          "name":"mapName",
          "type":"string",
-         "value":"Big event"
+         "value":"Big Sponsorship"
         }, 
         {
          "name":"script",

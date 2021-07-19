@@ -407,7 +407,7 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"A map suited for big sponsonship events, with up to 10 closed rooms and 6 sponsor rooms."
+         "value":"Suitable for up to 500 users.\n\nThis is the perfect venue for any conference with several sponsors to be held at, having 10 main sponsor areas that can be split into another 10 and 6 meeting rooms. Here you will be able to expose your brands in the most effective way and have a great enough map for everyone to be simultaneously interacting amongst each other."
         }, 
         {
          "name":"mapImage",
@@ -430,7 +430,7 @@
          "value":"script.js"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.7.0",
+ "tiledversion":"1.7.1",
  "tileheight":32,
  "tilesets":[
         {

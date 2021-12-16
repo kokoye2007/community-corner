@@ -402,12 +402,12 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"CC-BY-SA 3.0:\n - http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/\n - See the file: cc-by-sa-3.0.txt\nGNU GPL 3.0:\n - http:\/\/www.gnu.org\/licenses\/gpl-3.0.html\n - See the file: gpl-3.0.txt\n\nTilesets: workadventu.re, https:\/\/limezu.itch.io\/"
+         "value":"Credits: Sebastian Arnold https:\/\/www.linkedin.com\/in\/sebastian-b-arnold\/ \nLicence: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
         }, 
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"A map suited for big sponsonship events, with up to 10 closed rooms and 6 sponsor rooms."
+         "value":"Suitable for up to 300 users.\n\nThis is the perfect venue for big sponsonship events with several sponsors to be held at, having 10 main sponsor areas and 6 meeting rooms. Here you will be able to expose your brands in the most effective way and have a great enough map for everyone to be simultaneously interacting"
         }, 
         {
          "name":"mapImage",
@@ -430,7 +430,7 @@
          "value":"script.js"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.7.0",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {

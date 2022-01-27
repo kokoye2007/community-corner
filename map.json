@@ -574,7 +574,7 @@
          "objects":[
                 {
                  "height":0,
-                 "id":28,
+                 "id":31,
                  "name":"exitSouthURL",
                  "point":true,
                  "properties":[
@@ -586,7 +586,7 @@
                         {
                          "name":"description",
                          "type":"string",
-                         "value":"A room URL starts with \"\/@\/\""
+                         "value":"A room URL starts with \"\/@\/\".\ne.g.: \"\/@\/my-organization\/my-world\/my-room\""
                         }, 
                         {
                          "name":"label",
@@ -597,13 +597,56 @@
                          "name":"persist",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"writableBy",
+                         "type":"string",
+                         "value":"editor"
                         }],
                  "rotation":0,
                  "type":"variable",
                  "visible":true,
                  "width":0,
-                 "x":910.666666666667,
-                 "y":2507.33333333333
+                 "x":903,
+                 "y":2536
+                }, 
+                {
+                 "height":0,
+                 "id":32,
+                 "name":"exitNorthURL",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"A room URL starts with \"\/@\/\".\ne.g.: \"\/@\/my-organization\/my-world\/my-room\""
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"North exit URL"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"writableBy",
+                         "type":"string",
+                         "value":"editor"
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":886,
+                 "y":33.3333333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -624,7 +667,7 @@
          "y":0
         }],
  "nextlayerid":102,
- "nextobjectid":31,
+ "nextobjectid":33,
  "orientation":"orthogonal",
  "properties":[
         {

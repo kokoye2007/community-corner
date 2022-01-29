@@ -90,7 +90,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"{{{ exitNorthURL }}}"
+                 "value":"https:\/\/play.workadventu.re\/@\/varcamp\/2022\/"
                 }],
          "type":"tilelayer",
          "visible":true,

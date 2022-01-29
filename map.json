@@ -306,7 +306,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/workadventu.re\/"
+                 "value":"https:\/\/var.camp\/community"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -718,7 +718,7 @@
          "value":true
         }],
  "renderorder":"right-down",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.7.90",
  "tileheight":32,
  "tilesets":[
         {
@@ -951,6 +951,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.6",
+ "version":"1.8",
  "width":55
 }

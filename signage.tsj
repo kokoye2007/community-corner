@@ -1,0 +1,14 @@
+{ "columns":10,
+ "image":"src\/assets\/signage.png",
+ "imageheight":640,
+ "imagewidth":320,
+ "margin":0,
+ "name":"signage",
+ "spacing":0,
+ "tilecount":200,
+ "tiledversion":"1.7.90",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.8"
+}

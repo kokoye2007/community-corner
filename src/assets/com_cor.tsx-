@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tileset version="1.8" tiledversion="1.7.90" name="com_cor" tilewidth="32" tileheight="32" tilecount="961" columns="31">
+ <image source="com_cor.png" width="1000" height="1000"/>
+</tileset>

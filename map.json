@@ -291,7 +291,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/varcamp\/2022\/webinar\/#entry-corner"
+                 "value":"https:\/\/play.workadventu.re\/@\/varcamp\/2022\/webinar#entry-corner"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -485,7 +485,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/varcamp\/2022\/webinar\/#entry-corner"
+                 "value":"https:\/\/play.workadventu.re\/@\/varcamp\/2022\/webinar#entry-corner-s"
                 }],
          "type":"tilelayer",
          "visible":true,

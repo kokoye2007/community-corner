@@ -294,7 +294,7 @@
                  "value":"https:\/\/play.workadventu.re\/@\/varcamp\/2022\/webinar\/#entry-corner"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":55,
          "x":0,
          "y":0
@@ -2649,7 +2649,7 @@
                         }],
                  "rotation":0,
                  "type":"variable",
-                 "visible":false,
+                 "visible":true,
                  "width":0,
                  "x":903,
                  "y":2536
@@ -2687,7 +2687,7 @@
                         }],
                  "rotation":0,
                  "type":"variable",
-                 "visible":true,
+                 "visible":false,
                  "width":0,
                  "x":886,
                  "y":33.3333333333333
@@ -2875,7 +2875,7 @@
          "name":"overide2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":55,
          "x":0,
          "y":0

@@ -2044,9 +2044,14 @@
                          "value":"https:\/\/www.facebook.com\/GFAMM2023to2024"
                         }, 
                         {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onactive"
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -2066,9 +2071,14 @@
                          "value":"https:\/\/www.facebook.com\/thiphomyanmar"
                         }, 
                         {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onactive"
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -2088,9 +2098,14 @@
                          "value":"https:\/\/www.conceptians.org"
                         }, 
                         {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onactive"
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -2110,9 +2125,14 @@
                          "value":"https:\/\/vmug.com\/myanmar"
                         }, 
                         {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onactive"
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -2132,9 +2152,14 @@
                          "value":"https:\/\/www.bsidesmyanmar.org\/"
                         }, 
                         {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onactive"
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -2154,9 +2179,14 @@
                          "value":"https:\/\/awsugmm.org\/"
                         }, 
                         {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onactive"
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -2176,9 +2206,14 @@
                          "value":"https:\/\/meta.wikimedia.org\/wiki\/Myanmar_Wikimedia_Community_User_Group"
                         }, 
                         {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onactive"
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -2198,9 +2233,14 @@
                          "value":"https:\/\/www.facebook.com\/GFAMM2023to2024"
                         }, 
                         {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onactive"
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -2220,9 +2260,14 @@
                          "value":"https:\/\/fb.com\/burma.social"
                         }, 
                         {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onactive"
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -2242,9 +2287,14 @@
                          "value":"https:\/\/ubuntu-mm.com"
                         }, 
                         {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onactive"
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -2264,9 +2314,14 @@
                          "value":"https:\/\/fb.com\/burma.social"
                         }, 
                         {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onactive"
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -2297,7 +2352,7 @@
                  "id":47,
                  "name":"from-vr",
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":88,
                  "x":812,
@@ -2314,9 +2369,14 @@
                          "value":"https:\/\/www.360career.org"
                         }, 
                         {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onactive"
+                         "value":"onaction"
                         }],
                  "rotation":0,
                  "type":"area",

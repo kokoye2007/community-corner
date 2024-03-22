@@ -2367,16 +2367,6 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/www.360career.org"
-                        }, 
-                        {
-                         "name":"openWebsiteClosable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -2595,12 +2585,12 @@
         {
          "name":"mapLink",
          "type":"string",
-         "value":"https:\/\/workadventure.github.io\/scripting-api-extra\/map.json"
+         "value":"https:\/\/kokoye2007.github.io\/community-corner\/map.json"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Sponsorship"
+         "value":"community"
         }, 
         {
          "name":"script",
